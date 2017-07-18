@@ -21,5 +21,5 @@ dnl
 define(`my_fixed_left_menu', `patsubst(my_left_menu(`$1'), `.*$1.*<br.*', `$1<br />')') dnl
 dnl
 define(`my_top_header',``<!-- myTopHeaderBegin -->
-<div id="Header"><a href="http://aranym.org/" title="ARAnyM Web"> Atari Running on Any Machine</a></div>
+<div id="Header"><a href="http://aranym.github.io/" title="ARAnyM Web"> Atari Running on Any Machine</a></div>
 <!-- myTopHeaderEnd -->'') dnl
